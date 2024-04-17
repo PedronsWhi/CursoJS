@@ -1,0 +1,23 @@
+"+" = soma
+"-" = subtração
+"*" = multiplicação
+"/" = divisão
+"%" = porcetagem(resto da divisão)
+"**" = ao quadrado
+
+Precedencia  
+"()"
+"**"
+"* / %"
+"+ , -"
+
+\Precedencia
+() ** /
+> < >=
+! não
+&& e
+|| ou
+
+Operador ternario
+
+média ></>= 7.0 ? "Aprovado" : "Reprovado"

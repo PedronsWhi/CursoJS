@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>teste</title>
+    <style>
+        div#area{
+            background: green;
+            color: aliceblue;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Teste Javascript</h1>
+    <div id="area" onclick="clicar()" onmouseout="sair()" >Guanabara é um dos melhores lógicos do Brasil
+    </div>
+    <script>
+        var a = Number(prompt('Digite um valor:'))
+        var b = Number(prompt('Digite um valor:'))
+        var s = a + b
+        confirm(`A soma do valor ${a} e do valor ${b} é igual a ${s}`)
+        alert('Agora vamos fazer uma subtração!!!')
+        var c = Number(prompt('Digite um número'))
+        var d = Number(prompt('Digite outro número'))
+        var z = c - d
+        confirm(`A subtração do número ${c} e ${d} é igual a ${z}`)
+        
+        var r = window.document.getElementById('area')
+        r.addEventListener('click', clicar)
+        r.addEventListener('mouseebter', entrar)
+        r.addEventListener('mouseout', sair)
+
+        function clicar(){
+            r.innertext = 'Clicou!'
+            r.style.background = 'red'
+        }
+        function clicar(){
+            r.innertext = 'Entrou'
+            r.style.background = 'green'
+        }
+        function clicar(){
+            r.innertext = 'Saiu!'
+            r.style.background = 'yellow'
+        }
+          </script>
+</body>
+</html>
