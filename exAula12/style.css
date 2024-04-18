@@ -1,0 +1,44 @@
+body{
+    background: rgb(77, 77, 213);
+    font: normal 15pt Arial;
+}
+header{
+    color: rgba(0, 0, 0, 0.726);
+    text-align: center;
+}
+section{
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
+}
+footer{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.726);
+}
+#foto {
+    width: 300px; /* Definindo um tamanho fixo para o contêiner (70% do tamanho original) */
+    height: 200px; /* Definindo um tamanho fixo para o contêiner (70% do tamanho original) */
+    overflow: hidden; /* Certificando-se de que a imagem não ultrapasse o contêiner */
+    border-radius: 50%; /* Transformando o contêiner em um círculo */
+    margin: auto; /* Centralizando o contêiner */
+    position: relative; /* Definindo o posicionamento relativo para o contêiner */
+}
+
+#imagem {
+    width: 100%; /* Definindo a largura da imagem como 100% */
+    height: auto; /* Mantendo a proporção da imagem */
+    position: absolute; /* Definindo o posicionamento absoluto para a imagem */
+    top: 50%; /* Alinhando a imagem ao centro vertical */
+    left: 50%; /* Alinhando a imagem ao centro horizontal */
+    transform: translate(-50%, -50%) scale(0.7); /* Centralizando e diminuindo a imagem em 30% */
+    border-radius: 50%; /* Transformando a imagem em um círculo */
+}
+
+
+div {
+    text-align: center;
+    padding: 13px;
+}
