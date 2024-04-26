@@ -16,7 +16,7 @@ section{
 }
 footer{
     text-align: center;
-    color: rgba(0, 0, 0, 0.726);
+    color: #000000e6;
 }
 #foto {
     width: 300px; /* Definindo um tamanho fixo para o contêiner (70% do tamanho original) */

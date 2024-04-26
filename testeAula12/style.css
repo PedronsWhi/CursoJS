@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: linear-gradient(to bottom right, rgb(77, 77, 213), rgb(255, 165, 0)); /* Degrade de azul para laranja */
+}
+
+header {
+    text-align: center;
+    color: white; /* Texto branco para contraste */
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 5px;
+}
+
+#teste {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+input[type="text"],
+input[type="number"],
+button {
+    margin-right: 10px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
