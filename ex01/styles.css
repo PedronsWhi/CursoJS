@@ -1,0 +1,100 @@
+/* Estilos gerais */
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    background: rgba(180, 229, 255, 0.34);
+    
+}
+
+/* Estilos para o cabeçalho */
+.header {
+    background-color: #87CEEB;
+    color: #fff;
+    padding: 30px;
+    border-bottom: 1px solid #ccc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 40px;
+}
+
+.header-nav {
+    text-align: center; /* Centralizar os links */
+}
+
+.header-menu {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.header-menu li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.header-menu li:first-child {
+    margin-left: 0;
+}
+
+.header-menu li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 18px;
+    transition: transform 0.3s ease; /* Adicionando transição */
+}
+
+.header-menu li a:hover {
+    transform: scale(1.1); /* Aumentando o tamanho do link ao passar o mouse */
+    background-color: rgba(0, 0, 0, 0.3); /* Aumenta a opacidade da cor de fundo */
+    color: #f0f0f0; /* Altera a cor do texto */
+    border-radius: 5px;
+}
+
+
+/* Estilos para o conteúdo principal */
+.main {
+    padding: 20px;
+}
+
+/* Estilos para as seções */
+.section {
+    margin-bottom: 20px;
+}
+
+.section-title {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+/* Estilos para o rodapé */
+.footer {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    text-align: center;
+    animation: animateFooter 1s infinite alternate;
+}
+
+@keyframes animateFooter {
+    from {
+        transform: translateY(0);
+    }
+    to {
+        transform: translateY(5px);
+    }
+}
+.Perfil{
+    font-size: 10px;
+}
